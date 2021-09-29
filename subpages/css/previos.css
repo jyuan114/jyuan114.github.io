@@ -13,3 +13,11 @@ th {
 td {
     text-align: center;
 }
+
+/* for the table at previous */
+table.paper td + td {
+  text-align: left;
+}
+table.paper td + td + td {
+    text-align: center;
+}
