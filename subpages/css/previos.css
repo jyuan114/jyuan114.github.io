@@ -17,7 +17,9 @@ td {
 /* for the table at previous */
 table.paper td + td {
   text-align: left;
+  padding-left: 7%;
 }
 table.paper td + td + td {
     text-align: center;
+    padding: 0;
 }
